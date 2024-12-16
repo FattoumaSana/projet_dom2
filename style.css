@@ -1,0 +1,55 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Conteneur central */
+.container {
+  text-align: center;
+  margin-top: -50px;
+}
+
+/* Style du titre h1 */
+h1 {
+
+  color: #2c3e50; 
+  font-size: 36px; 
+  font-weight: bold;  
+  font-family: 'Lora', serif,Tahoma, Geneva, Verdana, sans-serif; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px;
+}
+
+
+/* Boîte colorée */
+#color-box {
+  width: 400px;
+  height: 200px;
+  background-color: #3498db;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Bouton */
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#change-color-btn:hover {
+  background-color: #c0392b;
+}
